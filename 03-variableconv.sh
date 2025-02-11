@@ -1,6 +1,6 @@
 #!/bin/bash
-PERSON1=nani
-PERSON2=geethu
+PERSON1=$1
+PERSON2=$2
 
 echo "$PERSON1: Hi $PERSON2.How are you?"
 echo "$PERSON2: Hi $PERSON1 Im good who do you do?"
