@@ -11,8 +11,9 @@ fi
 dnf list installed git 
 
 if [ $? -ne 0 ]
-then
-echo "git is not installed"
-  dnf install git -y
-  elseecho "git is already installe dnothing to do"
+ then
+  echo "git is not installed"
+     dnf install git -y
+     else
+     echo "git is already installe dnothing to do"
 fi
