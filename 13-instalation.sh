@@ -8,12 +8,12 @@ echo "please try to access with root previlages"
 exit 1
 fi
 
-dnf list installed gitt 
+dnf list installed git
 
 if [ $? -ne 0 ]
  then
   echo "git is not installed"
-     dnf install gitt -y
+     dnf install git -y
 
      if [ $? -ne 0 ]
       then
